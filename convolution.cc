@@ -1,5 +1,9 @@
 #include "convolution.h"
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wvla"
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+
 using namespace std;
 using namespace utils;
 
@@ -1608,3 +1612,5 @@ void multadvection2(double **F, unsigned int m,
 }
 
 } // namespace fftwpp
+
+#pragma GCC diagnostic pop

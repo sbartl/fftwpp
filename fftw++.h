@@ -20,6 +20,8 @@
 #ifndef __fftwpp_h__
 #define __fftwpp_h__ 1
 
+#pragma GCC system_header
+
 #define __FFTWPP_H_VERSION__ 2.06
 
 #include <cstdlib>

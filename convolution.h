@@ -24,6 +24,7 @@ namespace fftwpp {
 
 #ifndef __convolution_h__
 #define __convolution_h__ 1
+#pragma GCC system_header
 
 extern const double sqrt3;
 extern const double hsqrt3;
